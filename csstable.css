@@ -1,0 +1,39 @@
+/*table, th, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-spacing: 10px;
+
+}
+
+th, tr {
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+table {
+	background-color: lightgrey;
+}
+
+th {
+	background-color: darkgrey;
+}*/
+
+
+
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+}
+
+tr:nth-child(odd) {
+	background-color: darkgrey;
+}

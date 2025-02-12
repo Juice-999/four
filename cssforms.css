@@ -1,0 +1,37 @@
+input[type=text], textarea, select {
+	width: 50%;
+	border: 2px solid black;
+	padding: 15px;
+	resize: vertical;
+	border-radius: 5px;
+}
+
+label {
+	display: inline-block;
+	padding: 15px 15px 15px 0px;
+}
+
+input[type=submit]{
+	background-color: green;
+	padding: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+}
+
+.size30 {
+	width: 25%;
+	float: left;
+	margin-top: 10px;
+}
+
+.size70 {
+	width: 70%;
+	float: left;
+	margin-top: 10px;
+}
+
+.row {
+	clear: both;
+}
